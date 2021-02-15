@@ -41,12 +41,6 @@ class UserRegister: UIViewController {
                    
                ]
         
-      
-             
-        //let user = Userr.init(username: username, email: email, password: pasdword, confirmpassword: confirmpassdword)
-        
-        //Request.shared.register(user: user)
-        
         
         Request.shared.register(parameters: parametros).responseJSON{ response in
                 

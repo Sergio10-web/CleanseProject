@@ -14,9 +14,14 @@ class LoginUser: UIViewController {
     @IBOutlet weak var email: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+ 
+        UserDefaults.standard.removeObject(forKey: "token")
+        
     }
     
+  
+     
+
     @IBAction func EnviarLogin(_ sender: Any) {
         
         let parametros : [String: String] = [
@@ -28,14 +33,16 @@ class LoginUser: UIViewController {
         print(parametros)
         Request.shared.login(parameters: parametros).responseJSON{ response in
             let  bodyjson = response.value as? String
-            let token = bodyjson
+           let  content = bodyjson?.split(separator: " ")
+            let tokenUser = content![1]
             
+            UserDefaults.standard.set(tokenUser, forKey: "token")
             
             
             debugPrint(response)
     }
     
-
+   
 
 }
 }

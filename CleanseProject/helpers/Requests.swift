@@ -28,6 +28,12 @@ static let shared = Request()
        }
   
  
+    func InfoUser(parameters:[String:String]) -> DataRequest {
+
+    
+        return AF.request(Endpoints.shared.baseURL + Endpoints.shared.getProfile, method: .post, parameters: parameters, encoder: JSONParameterEncoder.default, headers: nil)
+
+ }
 
     
 }

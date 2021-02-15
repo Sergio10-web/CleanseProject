@@ -24,13 +24,13 @@ class RegistroViewController: UIViewController {
 
     public func registerRequest (){
         
-        //Variables
+       
         let username = usernameField.text
         let email = emailField.text
         let password = passwordField.text
         let confirmpassword = confirmPasswordField.text
         
-        //Comprobacion de campos
+        
         
         if(username!.isEmpty || email!.isEmpty || password!.isEmpty || confirmpassword!.isEmpty){
             return

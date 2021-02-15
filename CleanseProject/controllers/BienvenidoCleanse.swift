@@ -16,13 +16,13 @@ class BienvenidoCleanse: UIViewController {
         var animationView : AnimationView?
          super.viewDidLoad()
          
-       animationView = .init(name: "people")
-         animationView?.frame = imagenanimacion.bounds
-          animationView?.loopMode = .loop
-        animationView? .animationSpeed = 0.5
-           imagenanimacion.addSubview(animationView!)
-    animationView?.play()
-          imagenanimacion.sendSubviewToBack(animationView!)
+            animationView = .init(name: "people")
+            animationView?.frame = imagenanimacion.bounds
+            animationView?.loopMode = .loop
+            animationView? .animationSpeed = 0.5
+        imagenanimacion.addSubview(animationView!)
+            animationView?.play()
+        imagenanimacion.sendSubviewToBack(animationView!)
      }
      
     

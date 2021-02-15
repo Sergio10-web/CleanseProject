@@ -14,7 +14,7 @@
 		7F06C1B025D6B0E500AC5417 /* UserRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F06C1AF25D6B0E500AC5417 /* UserRegister.swift */; };
 		E74F1DED25C9718A00527677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E74F1DEC25C9718A00527677 /* Main.storyboard */; };
 		E7767F0425D3560000C1831A /* invitadoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7767F0325D3560000C1831A /* invitadoViewController.swift */; };
-		E78985E325D6B51000A8DF1D /* ProfileUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78985E225D6B51000A8DF1D /* ProfileUser.swift */; };
+		E78985E325D6B51000A8DF1D /* ProfilePointsOferts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E78985E225D6B51000A8DF1D /* ProfilePointsOferts.swift */; };
 		E791A73A25C87EB700108B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791A73925C87EB700108B89 /* AppDelegate.swift */; };
 		E791A73C25C87EB700108B89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791A73B25C87EB700108B89 /* SceneDelegate.swift */; };
 		E791A74325C87EB800108B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E791A74225C87EB800108B89 /* Assets.xcassets */; };
@@ -55,7 +55,7 @@
 		82AE062F44ED4FE611C7E29D /* Pods-CleanseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanseProject.release.xcconfig"; path = "Target Support Files/Pods-CleanseProject/Pods-CleanseProject.release.xcconfig"; sourceTree = "<group>"; };
 		E74F1DEC25C9718A00527677 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E7767F0325D3560000C1831A /* invitadoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = invitadoViewController.swift; sourceTree = "<group>"; };
-		E78985E225D6B51000A8DF1D /* ProfileUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUser.swift; sourceTree = "<group>"; };
+		E78985E225D6B51000A8DF1D /* ProfilePointsOferts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePointsOferts.swift; sourceTree = "<group>"; };
 		E791A73625C87EB700108B89 /* CleanseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E791A73925C87EB700108B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E791A73B25C87EB700108B89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,7 +165,7 @@
 				E791A79125C8CF9500108B89 /* RegistroViewController.swift */,
 				E7EDF1B525D4474900CCC61A /* LoginUser.swift */,
 				7F06C1AF25D6B0E500AC5417 /* UserRegister.swift */,
-				E78985E225D6B51000A8DF1D /* ProfileUser.swift */,
+				E78985E225D6B51000A8DF1D /* ProfilePointsOferts.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -319,7 +319,7 @@
 				7F06C1AE25D6B0B700AC5417 /* Userr.swift in Sources */,
 				E7EDF1A225D40AFF00CCC61A /* Requests.swift in Sources */,
 				E7767F0425D3560000C1831A /* invitadoViewController.swift in Sources */,
-				E78985E325D6B51000A8DF1D /* ProfileUser.swift in Sources */,
+				E78985E325D6B51000A8DF1D /* ProfilePointsOferts.swift in Sources */,
 				E791A73A25C87EB700108B89 /* AppDelegate.swift in Sources */,
 				E791A76225C8869900108B89 /* MapainvitadoBusqueda.swift in Sources */,
 				E791A75B25C8832E00108B89 /* MapaInvitadoViewController.swift in Sources */,
